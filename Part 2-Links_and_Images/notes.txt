@@ -1,0 +1,22 @@
+Yea I totally used the anchors learned in this chapter in order to go back
+to the previous one to properly add links to my references section
+
+Anchors can be used to add links, but that's not its primary purpose, and Anchors
+don't actually do anything on their own. This is what the href is for
+
+I'll be honest, atom letting me autofill elements makes understanding a bit more difficult, but I love pressing tab
+and making text magically appear. This is how I learned about the use of href="#", which jumps you to the top of the page.
+
+an absolute link would be me making a link to the internetingishard tutorials
+
+Relative links assume you are within the same domain, so it's as simple as setting the href to the filepath
+I'll start trying root-relative links when I start to experiment with using a server.
+
+I have no idea how I missed the "target" attribute before but hey I have it now!
+
+avoid spaces. Use hyphens and underscores.
+
+
+the characters '<' '>' and '&' are reserved characters.
+They are used for writing elements and entities.
+There are also other entities for quotes. Very important since quotes are used for other coding purposes
