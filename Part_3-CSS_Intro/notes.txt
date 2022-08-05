@@ -1,0 +1,20 @@
+I have no idea why comments in css and html have to be different,
+but I love that css comments use the normal convention of /* this */
+
+I forgot that I can leave comments in code, so I'll probably be doing this notes
+bit in the code more often. I will still keep using these, however.
+Might be useful to keep around for notes that don't work in comments
+
+remember that HTML is for WHAT is on the page
+CSS determines how it's presented
+
+
+CASCADE HIERARCHY:
+
+    The browser’s default stylesheet
+    User-defined stylesheets
+    External stylesheets (that’s us)
+    Page-specific styles (that’s also us)
+    Inline styles (that could be us, but it never should be)
+
+this is important to learn if you want page specific styles.

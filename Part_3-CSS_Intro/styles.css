@@ -1,3 +1,34 @@
 body {
-  color: #FF0000;
+  color: #414141; /*light grey*/
+  background-color: #EEEEEE /*dark grey*/
+}
+
+h1 {
+  font-size: 36px; /* alter heading sizes*/
+}
+
+h2{
+  font-size: 28px;
+}
+
+/*how to give multiple elements the same css rules*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+a {
+  text-decoration: none; /* removes the underline from links*/
+}
+
+p {
+  text-align: left; /*don't do this*/
 }
