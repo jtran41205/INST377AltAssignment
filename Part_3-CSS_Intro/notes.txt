@@ -18,3 +18,8 @@ CASCADE HIERARCHY:
     Inline styles (that could be us, but it never should be)
 
 this is important to learn if you want page specific styles.
+
+
+Just like how a single css sheet can be used for multiple pages,
+a single page can use multiple css sheets. This is covered later in responsive
+design. Basically, phones require us to do more work to accomodate them.

@@ -1,0 +1,50 @@
+I'm at work and feeling delirious as I am typing this so forgive me.
+
+Now we learn the box model, which helps is determine an entire page layout.
+padding, borders, margins, block boxes, and inline boxes
+
+block elements definte the structure of the html
+inline elements are ways to customize the stuff
+inside of a block element
+
+default box behavior:
+    -block boxes are always below the previous block element
+    -this is how html normally flows
+    -width of block boxes is based on your browser window customize
+    -the default height is based on the amount of content
+    -inline boxes do NOT affect vertical spacing.
+    -inline box width is based on its own content.
+
+CSS can override these behaviors
+for example, you give have an "em" or "strong" display:block
+and it will be displayed like its own block element
+this is just an example, don't do this
+
+CSS box model:
+    Content – The text, image, or other media content in the element.
+    Padding – The space between the box’s content and its border.
+    Border – The line between the box’s padding and margin.
+    Margin – The space between the box and surrounding boxes.
+this bit is not defined by HTML, it's presentational stuff done by CSS
+
+remember that em units can be used for padding since they
+scale with font size
+there are different formats to use padding. one is easier to read, the other
+is easier to type
+padding order is top, left, bottom, right (clockwise)
+
+border creation: size then style then color
+
+"Borders are common design elements,
+but they’re also invaluable for debugging.
+When you’re not sure how a box is being rendered,
+add a border: 1px solid red; declaration to it."
+I will cherish this advice.
+
+Differences between padding and margins:
+    - The padding of a box has a background, while margins are always transparent.
+    - Padding is included in the click area of an element, while margins aren’t.
+    - Margins collapse vertically, while padding doesn’t (we’ll discuss this more in the next section).
+
+
+Yes I copy pasted a few things, because I don't like rewording good notes
