@@ -1,1 +1,21 @@
 floats. clearly not the number variable type from java
+
+
+this is the part where we free ourselves from the constraints of
+vertical-ness or something.
+
+this is a thing that is technically outdated by flexbox,
+but this is what I'm supposed to learn before
+I get overwhelmed by Flexbox woohoo
+
+We're going to be in div city for this Content
+
+the basics of CSS: Everything is inside a box *inside a box*
+
+the height of floated elements do not contribute to the vertical layout
+
+we do an exorbitant amount of nesting elements in web design
+
+this is how we learn to do responsive design
+and thus mobile development
+ew mobile
