@@ -1,0 +1,6 @@
+/*The universal selector. This gets rid of the weird white band on our page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

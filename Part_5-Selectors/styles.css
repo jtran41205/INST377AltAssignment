@@ -1,0 +1,130 @@
+/*The universal selector. This gets rid of the weird white band on our page
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+/*This allows the page to always be a width of 600px regardless of window size
+By doing this in a large div element, we can do the button centering alongside
+everything else!*/
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.synopsis {
+  color: #7E8184;        /* Light gray */
+  font-style: italic;
+}
+
+.button:link,
+.button:visited {
+  display:block;
+  text-decoration: none;
+
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+/*these new styles for button overwrote call-to-action, so we're just adding these
+to bring it back like normal*/
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
+}
+
+/* this is a descendant selector. This allows to target only elements that are
+INSIDE another element. Great for when we want to edit the "em" elements
+in a specific place like synopsis*/
+.synopsis em {
+  font-style: normal;
+}
+/*it doesn't always have to be a class selector*/
+h1 em {
+  /* Some other styles */
+}
+/*it's possible to get overspecific with these. It gets to a point where you might
+as well do it in HTML*/
+
+
+/*CSS stuff for links*/
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited:hover {
+  color: orange;
+}
+a:visited:active {
+  color: red;
+}
+
+
+/*this styles the last "p" element in the HTML document
+same with first-of-type
+
+There’s pros and cons to using this method over plain old classes.
+For instance, this only works if our synopsis is a <p> element.
+ If we ever wanted to create a multi-paragraph synopsis by
+ wrapping a bunch of <p> elements in a <div class='synopsis'>,
+ we’d have to rewrite our CSS accordingly. On the other hand,
+ the pseudo-class method lets us style specific elements
+ without having to alter the HTML at all.
+    This gives us a very clean separation of content from presentation.
+
+
+    I'm most likely going to avoid this, it selects the first p in EVERY container
+    hahaahah no. ALSO THE REST OF THIS SPECIFICITY STUFF TERRIFIES ME*/
+p:last-of-type {
+  margin-bottom: 50px;
+}
+p:first-of-type {
+  color: #7E8184;
+  font-style: italic;
+}

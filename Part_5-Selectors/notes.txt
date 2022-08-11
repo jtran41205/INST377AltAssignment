@@ -1,0 +1,18 @@
+I remember selectors being the bane of my existence.
+
+    A class attribute on the HTML element in question.
+    A matching CSS class selector in your stylesheet.
+
+Say you wanted the same type of element in the HTML, but to have different
+CSS styling. This is where classes come in. They'll allow different styles
+for the same element, and allows you to
+
+"div" elements don't alter the "what" on the page. They're like HTML stuff that
+the machine doesn't see, allowing us to play more with CSS and stuff.
+
+It is also possible to apply multiple classes to the same HTML element
+
+Overriding styles occurs based on the order of the style sheet.
+The order of the classes in the HTML sheet does not affect this
+
+THERE ARE MORE NOTES IN THE CSS COMMENTS

@@ -48,3 +48,31 @@ Differences between padding and margins:
 
 
 Yes I copy pasted a few things, because I don't like rewording good notes
+that are already written well
+
+div: block level Content
+span: inline level content
+
+Explicit dimensions: Usually, things autofill to the page
+adding an explicit dimension allows us to control the size at all times
+
+Content Boxes and Border Boxes
+
+The width and height properties only define the size of a box’s content.
+ Its padding and border are both added on top of whatever explicit dimensions you set.
+  This explains why you’ll get an image that’s 244 pixels wide
+  when you take a screenshot of our button,
+  despite the fact that it has a width: 200px declaration attached to it.
+
+use the box-sizing property to force the dimensions of the box into your input width
+box-sizing: border-box is going to be your universal tool for Boxes
+
+text-align will not align boxes, but content inside of boxes
+for reasons of arcane magic, it seems we must align individual boxes instead of in the body element
+
+
+    Everything is a box.
+    Boxes can be inline or block-level.
+    Boxes have content, padding, borders, and margins.
+    They also have seemingly arbitrary rules about how they interact.
+    Mastering the CSS box model means you can lay out most web pages.
