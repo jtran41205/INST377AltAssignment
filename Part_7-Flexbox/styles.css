@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+
+  display:flex; /*enables flex positioning*/
+  justify-content: center;
+  /*notice how this centers the elements in the parent element
+  and not needing to center individual elements*/
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  /*border: 1px solid #fff;   For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.signup {
+  margin-left: auto; /*we don't have to nest signup with login doing this*/
+}
+
+/*for the header thing*/
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  /**/
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.social,
+.subscribe {
+  align-self: flex-end; /*overrides the alignment in its container  */
+  margin-bottom: 20px;
+}
+
+.social,
+.logo,
+.subscribe {
+  /*border: 1px solid #5995DA;
+  the box created by each extends the full height of the flex container
+  good for creating equal-height columns with variable content in each one*/
+}
+
+/*photo grid*/
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;/*everything gets centered, even if the content is unequal*/
+  flex-wrap: wrap; /*anything beyond the grid length is put into another row*/
+  flex-direction: row;
+  align-items: center;
+}
+/*each item has a default order value of 0
+We can edit the order of individual items
+without messing with the order of other elements*/
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
+}
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1; /*tells items to stretch to match the width of .footer*/
+}
+
+
+.footer-three {
+  flex: 2; /*this tells footer-three to expand faster than the other footer-item elements*/
+}
+
+/*ADD THIS SECTION AFTER THE PREVIOUS*/
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+
+.references {
+  background-color: #5995FE;
+}

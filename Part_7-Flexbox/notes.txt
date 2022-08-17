@@ -1,0 +1,50 @@
+Floats laid the groundwork for flexbox.
+While floats only let us do horizontal positioning, flexbox gives us complete
+control over the layout. Now we're really cooking with gas
+
+Flexbox is much better than floats, but because floats have been around for such
+a long time, it's important to know how they work.
+
+Flex containers and flex items. Every child element inside a container is an "item"
+the container determines the layout, while each item can be edited individually
+
+In this case, "menu-container" has a child "menu", which has children "date",
+"signup" andd "login"
+
+noticed that by adding display:flex into the container element, we can format
+without cdoing formatting for the individual elements
+
+
+    center
+    flex-start //only use start and end if you have multiple flex items in a container
+    flex-end
+    space-around //distributes space around elements
+    space-between //space only exists between elements and not at the ends
+
+    haha I can't describe taht wwith words
+
+
+Originally with floats, we were manipulating horizontals like we're doing here so far
+Now, we can do vertical manipulation, which Floats cannot do. Let's learn that.
+
+Since the Header element has an explicit height, we can position items vertically
+Options for align-items and align-self
+
+    center
+    flex-start   (top)
+    flex-end      (bottom)
+    stretch
+    baseline
+
+Remember to separate content from presentation
+
+
+
+    Use display: flex; to create a flex container.
+    Use justify-content to define the horizontal alignment of items.
+    Use align-items to define the vertical alignment of items.
+    Use flex-direction if you need columns instead of rows.
+    Use the row-reverse or column-reverse values to flip item order.
+    Use order to customize the order of individual elements.
+    Use align-self to vertically align individual items.
+    Use flex to create flexible boxes that can stretch and shrink.
