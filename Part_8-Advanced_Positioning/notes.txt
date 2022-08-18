@@ -1,0 +1,5 @@
+So far we've been working with Static Flow, but there are other types of positioning as well
+
+  Relative
+  Absolute
+  Fixed
