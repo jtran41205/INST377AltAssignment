@@ -43,3 +43,5 @@ on screen regardless of where you scroll on the page. Useful for navigation bars
 z-index for putting things in front/behind of others
 wow! 3 whole dimensions!
 ----------------------
+
+add more notes later this chapter was messed up trying to get things right

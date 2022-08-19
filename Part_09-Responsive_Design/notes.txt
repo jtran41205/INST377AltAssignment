@@ -1,0 +1,16 @@
+Responsive design is how we can make a webpage look good regardless of if
+it is on mobile, tablet, or desktop
+This is done through media queries. These allow us to apply CSS rules only under specific conditions
+
+Remember that HTML is what shows up on google and CSS is how it looks to humans.
+
+Media queries always begin with the @media “at-rule”
+followed by some kind of conditional statement, and then some curly braces.
+ Inside the curly braces, you put a bunch of ordinary CSS rules.
+ The browser only pays attention to those rules if the condition is met.
+
+Fluid layout:
+one that stretches based on the screen width
+
+fixed width layout:
+one that keeps its length regardless of screen dimensions
