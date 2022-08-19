@@ -3,3 +3,43 @@ So far we've been working with Static Flow, but there are other types of positio
   Relative
   Absolute
   Fixed
+
+we'll be going over these 3 in their own sections
+
+-------------------------
+The CSS position property lets you alter the positioning scheme of a particular element.
+Its default value, as you might imagine, is static.
+ When an element’s position property doesn’t have a value of static,
+ it’s called a “positioned element”.
+ Positioned elements are what this entire chapter is about.
+
+ you can do a bunch of positioning rules on each other
+-------------------------
+Relative
+
+moves elements around *relative* to where they'd be on a page.
+For example, you can position an element to always be a certain distance from
+where its original position would be
+
+------------------------
+Absolute
+
+similar to relative positioning, but this time, it is relative to the
+entire browser window instead of its original position
+
+Absolute positioning becomes more practical when it's relative to something that
+is in the static flow of the page.
+therefore: (relatively) absolute position
+
+-----------------------
+Fixed
+
+Fixed is a bit like absolute, except it breaks from normal flow and is always
+on screen regardless of where you scroll on the page. Useful for navigation bars
+
+-----------------------
+ creating that menu page
+
+z-index for putting things in front/behind of others
+wow! 3 whole dimensions!
+----------------------
