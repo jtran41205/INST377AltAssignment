@@ -1,0 +1,9 @@
+Semantic HTML.
+Remember that search engines care about HTML, the "what" of the website
+
+CSS is the "how it looks" and does not affect search results
+
+this is when we use other elements instead of divs
+This allows search engines to tell what is on the page outside of a bunch of div elements
+
+after a sea of divs, we now give these things meaning!
