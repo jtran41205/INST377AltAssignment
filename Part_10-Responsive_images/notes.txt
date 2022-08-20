@@ -1,0 +1,31 @@
+right. Images and dimensions. Pain. Real Pain
+As you can see, Prof A, I am getting delirious at this point
+please don't let my waning sanity reflect on my real ability to learn
+
+Remember back when we talked about SVGs being vector images??
+yea that's how we solve the issue of different sizes for different devices having different resolutions
+TECHNOLOGY!
+
+Unfortunately, not everything is an SVG. We have a bunch of PNGs, GIFs, and JPGs
+These are defined by pixels instead of vectors.
+-------------------
+Responsive Image Optimization
+
+Different devices have different image requirements. Fortunately, HTML provides a way to choose the best image for the user’s device. Over the next few sections, we’ll take a look at three scenarios for optimizing responsive images:
+
+    A standard-resolution screen that doesn’t need a retina-quality image.
+    A retina mobile device that can use a standard-quality image because it’s been scaled down so much.
+    A desktop layout that uses a wide image, and an associated mobile layout that uses a taller image.
+
+-------------------
+
+Testing With Chrome
+
+This technique works just fine in Chrome,
+but we can’t really tell because it’s being clever.
+ Chrome will always use the high-res version if it has already been cached locally,
+  which means we can’t see the low-res version by simply making the browser window narrow.
+   We have to avoid the local browser cache by opening a new incognito window,
+    then avoid loading photo-big.jpg by making the window very narrow before loading the page.
+
+  I do this in firefox so I would never have noticed this

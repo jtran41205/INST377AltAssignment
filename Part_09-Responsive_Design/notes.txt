@@ -11,6 +11,23 @@ followed by some kind of conditional statement, and then some curly braces.
 
 Fluid layout:
 one that stretches based on the screen width
+Different phones have different sizes. work with this
 
 fixed width layout:
 one that keeps its length regardless of screen dimensions
+
+there are CSS styles that we want to apply to EVERY layout, so those are outside of
+the @media only screen and (whatever) sections
+
+----
+Mobile first development is when you design a webpage to look good on mobile devices first
+
+-----
+Create base styles outside the media queries. The media queries will overwrite
+anything we need to. This is easier and intuitive and there is no reason why I should explain that
+----------
+Believe it or not, that’s actually all you need to know to create responsive websites. If we boil it down, we’re really only concerned with three things:
+
+    The responsive design (the mockups for each layout)
+    CSS rules for implementing each of those layouts
+    Media queries for conditionally applying those CSS rules

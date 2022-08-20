@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-/*notice that the flex wrap here is in the page class enclosing
-everything. This makes tablet and desktop easier*/
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -49,6 +47,22 @@ everything. This makes tablet and desktop easier*/
   background-color: #C8C6FA;
 }
 
+.illustration {
+  width: 100%;
+  display: block;
+}
+
+.header {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -66,9 +80,7 @@ everything. This makes tablet and desktop easier*/
   }
 }
 
-/* Desktop Styles
-this centers the elements in the desktop build
-giving us more room to do things with the desktop layout*/
+/* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .page {
     width: 960px;
@@ -82,13 +94,9 @@ giving us more room to do things with the desktop layout*/
   .header {
     height: 400px;
   }
-  /*by adding these order properties from flexbox,
-  we can reorder signup to show up before content
-  this is that vertical manipulation we were
-  hyped about with flexbox*/
   .sign-up {
-  height: 200px;
-  order: 1;
+    height: 200px;
+    order: 1;
   }
   .content {
     order: 2;
