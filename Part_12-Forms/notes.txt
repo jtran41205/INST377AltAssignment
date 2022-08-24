@@ -7,3 +7,19 @@ extra important here.
 Have a mockup before you start writing code
 
 use <div> as a container for <label> and <input> elements
+
+<input> elements are used to actually get information from the user
+<label> inputs are like another semantic HTML element but used for form labels
+
+<div class='form-row'>
+  <label for='full-name'>Name</label>
+  <input id='full-name' name='full-name' type='text'/>
+</div>
+<input> here creates a text field, as we see in type='text'
+
+
+WOW when I do the email example, my browser recognizes it as an email field and
+asks to autofill it as such!
+
+Also note the placeholder attribute of <input> for the email. It's great for
+telling the user what they should input.
