@@ -1,4 +1,4 @@
-Everything in between the <html> </html> is a single "element"
+Everything in between the <html> </html> is a single <element>
 inside them are a head element and body element
 
 The head contains information about the HTML that the user does not see,
@@ -7,5 +7,5 @@ but the body does
 Took me a while to figure out that different heading elements actually matter
 h1 to h6, prominence in descending order
 
-List elements (ul or ol) should only contain a "li" element
-However, a "li" element is able to contain a "p" element just fine
+List elements (ul or ol) should only contain a <li> element
+However, a <li> element is able to contain a <p> element just fine

@@ -21,7 +21,7 @@ without cdoing formatting for the individual elements
     space-around //distributes space around elements
     space-between //space only exists between elements and not at the ends
 
-    haha I can't describe taht wwith words
+    haha I can't describe that with words
 
 
 Originally with floats, we were manipulating horizontals like we're doing here so far

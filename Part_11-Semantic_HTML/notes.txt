@@ -11,16 +11,16 @@ after a sea of divs, we now give these things meaning!
 no use of CSS this chapter, but remembering all we learned about CSS,
 we can totally use these new HTML tags with CSS
 
-This gives us the best combination of applying the "what" in HTML with the
-"look" from CSS,
+This gives us the best combination of applying the <what> in HTML with the
+<look> from CSS,
 
 Unfortunately this chapter's link to the HTML5 outliner is not working
 https://cloud.magiclen.org/us/html-outliner
 Using this link for now, but it's gross and doesn't like adblockers.
 
-Yay, the "article" element which serves as a mini web page
+Yay, the <article> element which serves as a mini web page
 
-"section" element is a nice wrapper. It doesn't change the look of the page,
+<section> element is a nice wrapper. It doesn't change the look of the page,
 but it communicates nicely for the semantic part of HTML
 
 By adding those <section> elements,
@@ -34,23 +34,23 @@ By adding those <section> elements,
 Do not manipulate outline with section. Do that with headers,
 and use section to replace divs when necessary.
 
-the "nav" element is a way to denote that a certain section is
+the <nav> element is a way to denote that a certain section is
 a navigation bar on a website
 
-"Header" not to be confused with "heading"
+<Header> not to be confused with <heading>
 is for introductory content. Wrap a websites name and logo
 in a header as well as navigational elements.
 
 Headers are only associated with the nearest sectioning element,
 so multiple headers can be used in different parts of a document
-like "section", this helps our semantic design while allowing for convenient CSS
+like <section>, this helps our semantic design while allowing for convenient CSS
 
 Finally we have Footers, which are like Headers. But at the end of the page. Like feet
 head to toe. wow.
 
-"Aside" can be used for things we want to remove from inside the article text. Such as an advertisement
+<Aside> can be used for things we want to remove from inside the article text. Such as an advertisement
 
-We can also use "aside" to make a sidebar.
+We can also use <aside> to make a sidebar.
 
 
 
@@ -60,17 +60,17 @@ for when we just want to change the layout without altering the semantics
 
 When in doubt, use a div. Messing up a semantic element is worse than not using outline
 
-"time" element
+<time> element
 <time datetime='yyyy-m-d'> the date </time>
 
 datetime written in a way machines can read
 
-"address" not for physical addresses but metadata like an email or something I guess
+<address> not for physical addresses but metadata like an email or something I guess
 
-"figure" and "figcaption"
-Figure is for diagrams/illustrations/code snips
-figcaption adds an optional description. "alt" is for text replacement of an image
-while figcaption is for supporting description
+<figure> and <figcaption>
+<figure> is for diagrams/illustrations/code snips
+<figcaption> adds an optional description. <alt> is for text replacement of an image
+while <figcaption> is for supporting description
 
 
 
@@ -80,3 +80,11 @@ section, article, aside, footer, header, nav {
   display: block;
 }
 to make everything behave like divs
+
+
+
+
+One last bit of notes, I noticed that when using an outliner,
+ it would check my references section. While it's something I'm doing here for
+ assignment purposes, I should take into consideration whether or note
+ I want that in the semantic layout of a page or not

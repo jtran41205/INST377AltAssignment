@@ -3,3 +3,7 @@ my sanity is frayed, I had a Karen interaction at work as I am typing this
 
 Creating forms, the final form,,,, of responsive design? at the very least, it's
 extra important here.
+
+Have a mockup before you start writing code
+
+use <div> as a container for <label> and <input> elements

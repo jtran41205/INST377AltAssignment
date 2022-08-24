@@ -3,7 +3,7 @@ I'm at work and feeling delirious as I am typing this so forgive me.
 Now we learn the box model, which helps is determine an entire page layout.
 padding, borders, margins, block boxes, and inline boxes
 
-block elements definte the structure of the html
+block elements define the structure of the html
 inline elements are ways to customize the stuff
 inside of a block element
 
@@ -16,7 +16,7 @@ default box behavior:
     -inline box width is based on its own content.
 
 CSS can override these behaviors
-for example, you give have an "em" or "strong" display:block
+for example, you give have an <em> or <strong> display:block
 and it will be displayed like its own block element
 this is just an example, don't do this
 

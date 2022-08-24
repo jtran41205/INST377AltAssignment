@@ -7,7 +7,7 @@ Say you wanted the same type of element in the HTML, but to have different
 CSS styling. This is where classes come in. They'll allow different styles
 for the same element, and allows you to
 
-"div" elements don't alter the "what" on the page. They're like HTML stuff that
+<div> elements don't alter the "what" on the page. They're like HTML stuff that
 the machine doesn't see, allowing us to play more with CSS and stuff.
 
 It is also possible to apply multiple classes to the same HTML element
